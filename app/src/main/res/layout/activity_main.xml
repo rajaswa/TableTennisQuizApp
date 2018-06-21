@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:src="@drawable/tt2"
         android:scaleType="centerCrop"
-        android:alpha="0.8"/>
+        android:alpha="0.75"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:text="TABLE TENNIS QUIZ"
-            android:textSize="33sp"
+            android:textSize="30sp"
             android:textStyle="bold|italic"
             android:textColor="#ff0000" />
 
@@ -37,7 +37,8 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:id="@+id/rg1">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -123,7 +124,8 @@
                 android:id="@+id/q3"/>
             <android.support.v7.widget.AppCompatEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:id="@+id/edittext"/>
 
             <TextView
                 style="@style/question"
@@ -134,7 +136,8 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/rg4">
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -216,7 +219,8 @@
                 android:layout_height="wrap_content"
                 android:text="SUBMIT"
                 android:layout_marginHorizontal="130dp"
-                android:layout_marginVertical="10dp"/>
+                android:layout_marginVertical="10dp"
+                android:onClick="checkQuiz"/>
 
 
 
