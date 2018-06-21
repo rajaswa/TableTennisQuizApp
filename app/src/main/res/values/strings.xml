@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Table Tennis Quiz</string>
+
+    #questions
+    <string name="q1">Which country does the famous table tennis player Ma Long belong to ?</string>
+        <string name="a1">India</string>
+        <string name="b1">Japan</string>
+        <string name="c1">China</string>
+        <string name="d1">Singapore</string>
+
+    <string name="q2">Which of the following are Chinese Table tennis players ?</string>
+        <string name="a2">Ma Long</string>
+        <string name="b2">Xu Xin</string>
+        <string name="c2">Sharat Kamal</string>
+        <string name="d2">Fan Zhendong</string>
+
+    <string name="q3">Which country won the Commonwealth 2018 Gold medal ?</string>
+
+    <string name="q4">Which country does the famous table tennis player Timo Boll belong to ?</string>
+        <string name="a4">Denmark</string>
+        <string name="b4">Sweden</string>
+        <string name="c4">Germany</string>
+        <string name="d4">England</string>
+
+    <string name="q5">Which of the following are the colors used for Table Tennis bat rubbers ?</string>
+        <string name="a5">Black</string>
+        <string name="b5">White</string>
+        <string name="c5">Green</string>
+        <string name="d5">Red</string>
+</resources>
